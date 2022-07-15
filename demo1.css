@@ -1,0 +1,223 @@
+body{
+    font-family: 'Open Sans',sans-serif !important;
+    font-size: 15px;
+    line-height: 1.5;
+    /* chuẩn phông chữ cho toàn bộ trang */
+}
+*{
+    padding:0;  
+    margin:0;
+    box-sizing:border-box;
+}
+/* -------------chung------------- */
+.container{
+    margin: 0 20%;
+    padding: 0 10px;
+}
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+}
+.pad-10{
+    padding: 10px;
+}
+.pad-f10{
+    padding-left: 10px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.mr{
+    margin: 10px 0;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.ipd{
+    margin-bottom: 20px;
+    padding: 14px 15px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+.p-login{
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+.ba{
+    width: 33.33333333%;
+    height: 500px;
+    float: left;
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+}
+.vien{
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 65px 10px;
+}
+.btitle{
+    padding: 0 10px;
+}
+.stitle{
+    margin-bottom:30px;
+    text-align: center;
+}
+.topic{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 16px;
+    margin: 10px 0;
+    color: #888;
+}
+/* -------------rieng------------- */
+.menu{
+    width: 100%;
+    height: 80px; 
+    padding: 18px 0;
+}
+.container-pix .nav{
+    display: flex;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.nav li a:hover{
+    color: #009cde;
+}
+.nav .subnal{
+    display: none;
+}
+.nav .subnal {
+    
+}
+.logomenu{
+    padding: 0 10px;   
+}
+.pixconter{
+    display: block;
+}
+.pix-default{
+    
+}
+.blog-menu{
+}
+.mxh i{
+    font-size: 20px;
+}
+.mxh i:hover{
+    color: #009cde;
+}
+.mxh{
+    display: flex;
+    padding: 10px;
+}
+.cum{
+    display: flex;
+    justify-content: space-between;
+}
+.photo-login{
+    width: 100%;
+    height: 635px;
+    background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url(/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top ;
+    padding: 50px 0;
+    background-color: rgba(0,0,0, 0.6);
+}
+.login-box{
+    width: 370px;
+    height: 535px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+.login{
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+.login h3{
+    font-size: 28px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.arraylogin button{
+    background-color:#009cde;
+    border-radius: 3px;
+    border:none;
+}
+.arraylogin button p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/* picture */
+.picture{
+    padding: 60px 0;
+    height: 500px;
+}
+.otherbox1{
+    background-color: #F4F4F4;
+    height: 360px;
+}
+.otherbox2{
+    background-color: #009cde;
+    height: 360px;
+    color: #fff;
+}
+.otherbox3{
+    background-color: #F4F4F4;
+    height: 360px;
+}
+.pic img{
+    width: 100px;
+    height: 100px;
+}
+.pic img{
+    margin-bottom: 30px;
+}
+.pic h2{
+    margin: 10px 0;
+}
+.pic p{
+    margin-bottom: 10px;
+}
+/* <!-- Noi dung     --> */
+.Services{
+    height: 500px;
+    padding:30px 0;
+}
+.header-left{
+    float: left;
+    width: 41.66666667%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contentl{
+    background: #f4f4f4;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 30px 0;
+}
